@@ -1,5 +1,8 @@
-name: 'Release Drafter'
-description: 'Drafts your next release notes as pull requests are merged into master.'
+name: 'Release Drafter on Any Action'
+description: |
+  This is a fork of the original Release Drafter but enables the action on any event rather than push only.
+  This is a stop-gap until the original Release Drafter code is separated into GitHub Action and GitHub App
+  codebases, allowing for stronger customization for GitHub Actions.
 runs:
   using: 'docker'
   image: 'Dockerfile'
